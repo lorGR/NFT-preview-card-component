@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- This will hold every contect in the card -->
+    <div class="cube-image">
+      <!-- This will hold and we will tweak the image-->
+      <img src="images/image-equilibrium.jpg" alt="equilibrium" width="400px" height="400px">
+    </div>
+    <div class="bottom-content">
+      <!-- This will hold all the content in the bottom card-->
+      <div class="title">
+        <!-- This will hold the title Equilibrium #3429 tweak thier color padding etc-->
+        <h1>Equilibrium #3429</h1>
+      </div>
+      <div class="subtitle">
+        <!-- This will hold the sub text in the card tweak color padding etc-->
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="plan-box">
+        <!-- This will hold the whole plan box in the card **COULD USE FLEX SPACE BETWEEN**-->
+        <div class="plan-box-left">
+          <!-- This will hold the left side of the box the icon and the text tweak color size etc-->
+          <img src="images/icon-ethereum.svg" alt="icon-ethereum">
+          <span>0.041 ETH</span>
+        </div>
+        <div class="plan-box-right">
+          <!-- This will hold the right side of the box the icon and the text tweak color size etc ** COULD ADD BORDER BOTTOM**-->
+          <img src="images/icon-clock.svg" alt="icon-clock">
+          <span>3 days left</span>
+        </div>
+      </div>
+      <div class="footer">
+        <!-- This will hold the footer the image of the avatar and the name-->
+        <div class="avatar">
+          <!-- This will hold the avatar image-->
+          <img src="images/image-avatar.png" alt="avatar-pic" width="40px">
+        </div>
+        <div class="creation">
+          <!-- This will hold the avatar name-->
+          <span>Creation of </span>
+          <span class="avatar-name">Jules Wyvern</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 25px;
+    margin: 200px;
+    border-radius: 10px;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+}
+
+.subtitle{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.cube-image img{
+    border-radius: 10px;
+}
+
+.plan-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.plan-box-left span{
+    padding-left: 5px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.plan-box-right span{
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.footer{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .avatar img{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.footer .creation span{
+    color: hsl(215, 51%, 70%);;
+}
+
+.footer .creation .avatar-name{
+    color: white;
+}
